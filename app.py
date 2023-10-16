@@ -14,7 +14,7 @@ def get_test():
     return '<h1>You are accessing /test endpoint</h1>'
 
 @app.route('/maximo')
-def get_test():
+def get_max():
     return '<h1>You are accessing /maximo endpoint</h1>'
 
 if __name__ == "__main__":
